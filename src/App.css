@@ -1,0 +1,120 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #414141;
+  min-height: 1vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;  
+  font-size: calc(1px + 2vmin);
+  color: rgb(255, 255, 255);
+  border: 2px solid #000000; 
+  padding: 10px;
+}
+
+.App-link {
+  color: #dbdf04;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+h2 {
+  color: #ff0000;
+}
+
+ul {
+  text-align: center;
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  margin: 5px 0;
+}
+
+footer {
+  margin-top: 20px;
+}
+
+footer a {
+  margin: 0 15px;
+  color: #12aa0d;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #0077b5;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.content {
+  width: 80%;
+  max-width: 800px;
+}
+
+.text-box {
+  background-color: #414141; 
+  border: 2px solid #000000; 
+  padding: 20px; 
+  margin: 10px 0; 
+  border-radius: 8px; 
+}
+
+footer a {
+  margin: 0 15px;
+  color: #ff0000;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #0077b5;
+}
+.personal-info li {
+  color: #ffffff; 
+}
+
+.education li {
+  color: #ffffff; 
+}
+
+.work-experience li {
+  color: #ffffff; 
+}
+
+.skills li {
+  color: #ffffff; 
+}
+
+.hobbies li {
+  color: #ffffff; 
+}
